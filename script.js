@@ -1,18 +1,18 @@
 // 1) Crear una función que tome dos parámetros y devuelva un console.log() con el resultado de la suma dentro del bloque de ejecución de la función. Invocar la función al menos tres veces
-// function ej1(param1, param2) {
+// function addition(param1, param2) {
 //     return param1 + param2;
 // }
-// console.log(ej1(1, 3))
-// console.log(ej1(4, 6))
-// console.log(ej1(5, 56))
+// console.log(addition(1, 3))
+// console.log(addition(4, 6))
+// console.log(addition(5, 56))
 
 // 2) Crear una función que tome dos parámetros y devuelva un console.log() con el resultado de la resta dentro del bloque de ejecución de la función. Invocar la función al menos tres veces
-// function ej2(param1, param2) {
+// function subtraction(param1, param2) {
 //     return param1 - param2;
 // }
-// console.log(ej2(1, 3))
-// console.log(ej2(4, 6))
-// console.log(ej2(5, 56))
+// console.log(subtraction(1, 3))
+// console.log(subtraction(4, 6))
+// console.log(subtraction(5, 56))
 
 // 3) Crear una función que tome dos parámetros y devuelva un console.log() con el resultado de la multiplicación dentro del bloque de ejecución de la función. Invocar la función al menos tres veces
 // function ej3(param1, param2) {
@@ -71,23 +71,25 @@
 //   });
 
 // 9) Pedirle cinco números al usuario, almacenarlos para luego crear una función que los ordene de menor a mayor y otra función que los ordene de mayor a menor
-// var pNum = prompt("Coloca 5 numeros porfavor, aca el primero");
-// var sNum = prompt("Ahora el segundo");
-// var tNum = prompt("Ahora el tercero");
-// var cNum = prompt("Ahora el cuarto");
-// var qNum = prompt("Y por ultimo el quinto");
-
-// const numeros = [...pNum, ...sNum, ...tNum, ...cNum, ...qNum];
-
-// function ej9() {
-//     console.log(numeros.sort())
+//Probando la resolucion de Cata---
+// function menAMay(array) {
+//   array.sort(function(a, b){return a - b});
+//   console.log(array);
 // }
-// ej9();
-
-// function ej9_1() {
-//     console.log(numeros.sort().reverse())
+// function mayAMen(array) {
+//   array.sort(function(a, b){return b - a}); 
+//   console.log(array);
 // }
-// ej9_1();
+
+// let arrayNumbers = [];
+// for (let i=0; i <= 5; i++) {
+//   let numbers = parseInt(prompt("Ingrese un numero:"));
+//   arrayNumbers.push(numbers);
+// }
+// console.log(arrayNumbers);
+// menAMay(arrayNumbers);
+// mayAMen(arrayNumbers);
+
 
 
 // 10)¿Qué son los eventos en JS? Buscar información y debatir en el grupo sobre el funcionamiento de:
