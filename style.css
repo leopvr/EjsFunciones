@@ -4,6 +4,10 @@
     font-family: 'Roboto Condensed', sans-serif;
 }
 
+body {
+    background-color: seashell;
+}
+
 h1{
     text-align: center;
 }
@@ -12,13 +16,17 @@ h1{
     font-weight: bold;
 }
 
-/* .container{
-    background-color: cornsilk;
-} */
-
 .maincont{
-    background-color: rgb(238, 228, 185);
+    background-color: rgb(238 185 195);
     border-radius: 6px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
     padding: 4em;
+}
+
+button {
+    border-radius: 30px;
+    border: 1px solid white;
+    background-color: rgba(0, 0, 0, 0.705);  
+    color: white; 
+    padding: 0.5em 1em;
 }
